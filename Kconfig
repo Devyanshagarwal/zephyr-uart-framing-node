@@ -1,0 +1,7 @@
+mainmenu "Zephyr UART Framing Node"
+
+module = FRAMER
+module-str = framer
+source "subsys/logging/Kconfig.template.log_config"
+
+source "Kconfig.zephyr"
